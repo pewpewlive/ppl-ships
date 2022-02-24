@@ -20,3 +20,5 @@ meshes = {
   }
 }
 ```
+The order of the vertexes correspond to the order of the segments and the colors.
+So `{0,0}` in this case is assigned a color that corresponds to `0xffffffff` and its segment is `0` since it is the first vertex.
