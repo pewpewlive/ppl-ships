@@ -28,4 +28,4 @@ The starting point is `{0,0}`.
 ![githu](https://user-images.githubusercontent.com/96009711/155609785-ef9c2548-56a3-4bf5-8e27-72f0397f9d17.png)
 
 These are the borders that you have to work with. Now figure out your workflow, and start making ships, maybe even take some inspiration from the official ones!
-More questions on the Official PewPew [Discord Server](https://discord.gg/czubEGgbWJ)
+More questions on the Official PewPew [Discord Server](https://discord.gg/czubEGgbWJ).
