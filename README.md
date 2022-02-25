@@ -4,11 +4,11 @@ It allows people to contribute their own ship designs for PewPew Live.
 Not all ship designs may get added to the game.
 
 ## Requirements
-You will have to work with Lua, since the mesh of the ship should be a Lua mesh. 
-Ship borders cannot exceed the 32x32 limit.
-You should only contribute a folder with the Lua file mesh and a picture of the mesh in PewPew Live (Minimal Graphics) (optional).
-The lua file name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG".
-The folder name should have your name and the name of the ship seperated by a hyphen, e.g "Mutoxicated-Poison".
+1.You will have to work with Lua, since the mesh of the ship should be a Lua mesh. 
+1.Ship borders cannot exceed the 32x32 limit.
+1.You should only contribute a folder with the Lua file mesh and a picture of the mesh in PewPew Live (Minimal Graphics) (optional).
+1.The lua file name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG".
+1.The folder name should have your name and the name of the ship seperated by a hyphen, e.g "Mutoxicated-Poison".
 
 ## How to get started
 Example of a file that defines a mesh:
