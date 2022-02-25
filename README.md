@@ -16,7 +16,7 @@ Example of a file that defines a mesh:
 meshes = {
   { -- A 32x32 square
     vertexes = {{0,0}, {32,0}, {32,32}, {0,32}},
-    colors = {0xffffffff, 0xffff00ff, 0xff00ffff, 0xff0000},
+    colors = {0xffffffff, 0xffff00ff, 0xff00ffff, 0xff0000ff},
     segments = {{0,1,2,3,0}}
   }
 }
