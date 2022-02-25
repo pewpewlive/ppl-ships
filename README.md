@@ -1,7 +1,8 @@
 # ppl-ships
-Community-made ships for PewPew Live.
+Community-made ships for PewPew Live, a game by [JF](https://github.com/jyaif).
 It allows people to contribute their own ship designs for PewPew Live.
 Not all ship designs may get added to the game.
+This is not by all means an official repository from the official creator and is just meant to bring new ideas to the table.
 
 ## Requirements
 1. You will have to work with Lua, since the mesh of the ship should be a Lua mesh. 
