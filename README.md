@@ -8,7 +8,7 @@ Not all ship designs may get added to the game.
 1. Ship borders cannot exceed the 32x32 limit.
 1. You should only contribute a folder with the Lua file mesh and a picture of the mesh in PewPew Live (Minimal Graphics) (optional).
 1. The lua file name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG".
-1. The folder name should have the name of the creator and the name of the ship seperated by a hyphen, e.g "Mutoxicated-Poison".
+1. The folder name should have the name of the creator and the name of the ship separated by a hyphen, e.g "Mutoxicated-Poison".
 
 ## How to get started
 Example of a file that defines a mesh:
