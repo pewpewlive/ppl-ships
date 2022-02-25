@@ -11,7 +11,7 @@ The repo's purpose is to just keep a collection of all community-made ships and 
 4. You should only contribute a folder with the Lua file mesh and a picture of the mesh in PewPew Live (Minimal Graphics) (optional).
 5. The lua file name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG".
 6. The folder name should have the name of the creator and the name of the ship separated by a hyphen, e.g "Mutoxicated-Poison".
-7. Don't be like me and make sure to center your mesh! Since borders are 32x32 that means the starting point won't be `{0,0}` but `{16,16}`!
+7. Don't be like me and make sure to center your mesh! Since borders are 32x32 that means the starting point won't be `{0,0}` but `{-16,-16}`! And thefore the rough estimate of the borders will be from `{-16,-16}` to `{16,16}`.
 
 ## The Basics
 Example of a file that defines a mesh:
