@@ -1,4 +1,4 @@
-meshes = {
+meshes = {--By Mutoxicated (Mutox)
     {
         vertexes = {{0,7},{4,20}, {9,4},{9,27}, {16,2},{16,16}, {23,4},{23,27}, {32,7},{28,20},  {11.6,0},{20,0}, {7,4},{25,4}},
         colors = {0x0000ffff, 0x00ffffff, 0x0000ffff, 0x00ffffff, 0x0000ffff, 0x0090ffff, 0x0000ffff, 0x00ffffff, 0x0000ffff, 0x00ffffff,  0x0000ffff,  0x0000ffff, 0x0000ffff, 0x0000ffff, 0x0000ffff},
