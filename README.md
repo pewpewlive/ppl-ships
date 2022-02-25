@@ -11,7 +11,7 @@ The repo's purpose is to just keep a collection of all community-made ships and 
 1. The lua file name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG".
 1. The folder name should have the name of the creator and the name of the ship separated by a hyphen, e.g "Mutoxicated-Poison".
 
-## How to get started
+## The Basics
 Example of a file that defines a mesh:
 ```lua
 meshes = {
