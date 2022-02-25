@@ -5,7 +5,7 @@ Not all ship designs may get added to the game.
 
 ## Requirements
 You will have to work with Lua, since the mesh of the ship should be a Lua mesh. 
-Ship borders cannot exceed the 32x32(fx) limit.
+Ship borders cannot exceed the 32x32 limit.
 You should only contribute a folder with the Lua file mesh and a picture of the mesh in PewPew Live (Minimal Graphics) (optional).
 The lua file name and the folder name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG"
 
