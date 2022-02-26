@@ -9,9 +9,9 @@ The repo's purpose is to just keep a collection of all community-made ships and 
 2. You should use [ppl-utils](https://github.com/jyaif/ppl-utils) to make the ship.
 3. Ship size should be roughly 32x32 big, though the ship can be a little larger or a little smaller.
 4. You should only contribute a folder with the Lua file mesh and a picture of the mesh in PewPew Live (Minimal Graphics) (optional).
-5. The lua file name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG".
+5. The Lua file name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG".
 6. The folder name should have the name of the creator and the name of the ship separated by a hyphen, e.g "Mutoxicated-Poison".
-7. Don't be like me and make sure to center your mesh! Since the border you may start from is from `{0,0}` to `{32,32}`(so the center is `{16,16}`) that means the starting point when you are going to center it won't be `{0,0}` but `{-16,-16}`! And thefore the rough estimate of the borders will be from `{-16,-16}` to `{16,16}`(so the center will now be `{0,0}`).
+7. Don't be like me and make sure to center your mesh to `{0,0}`! If the border you start from is from `{0,0}` to `{32,32}`, the center is `{16,16}`! When you center it, the rough estimate of the borders should be from `{-16,-16}` to `{16,16}`, so the center will now be `{0,0}`.
 8. You can start with the ship facing up, and when you're done with the ship, make it face to the right (so that it's angle is 0 degrees) by swapping in each vertex the x and y value.
 
 ## The Basics
