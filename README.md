@@ -7,7 +7,7 @@ The repo's purpose is to just keep a collection of all community-made ships and 
 ## Requirements
 1. You will have to work with Lua, since the mesh of the ship should be a Lua mesh. 
 2. You should use [ppl-utils](https://github.com/jyaif/ppl-utils) to make the ship.
-3. Ship border should be about from `{0,0}` to `{32,32}`, though the ship can be a little larger or a little smaller.
+3. Ship size should be roughly 32x32 big, though the ship can be a little larger or a little smaller.
 4. You should only contribute a folder with the Lua file mesh and a picture of the mesh in PewPew Live (Minimal Graphics) (optional).
 5. The lua file name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG".
 6. The folder name should have the name of the creator and the name of the ship separated by a hyphen, e.g "Mutoxicated-Poison".
