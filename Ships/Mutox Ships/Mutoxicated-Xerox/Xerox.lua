@@ -26,17 +26,17 @@ meshes = {
                     {24,25,26}
                     },
         colors = {
-                c,a,a,b,
-                b,c,
-                c,c,
-                d,c,
-    
-                c,a,a,b,
-                b,c,
-                c,c,
-                d,c,
-    
-                b,b,b,b
+                    c,a,a,b,
+                    b,c,
+                    c,d,
+                    d,d,
+
+                    c,a,a,b,
+                    b,c,
+                    c,d,
+                    d,d,
+
+                    b,b,b,b
                 }
     }
 }
