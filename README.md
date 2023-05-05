@@ -37,4 +37,4 @@ The center point is `{0,0,0}`.
 Should clear some things up.
 ![exampleIMG](https://user-images.githubusercontent.com/96009711/236540596-0b2437cf-190a-40dc-9dfc-d6678972531f.png)
 
-Ships dont have to strictly be 32x32 size, but it's good to not stray away too much from that size. Now figure out your workflow, and start making ships, maybe even take some inspiration from the official ones! It may look like alot, but it gets way easier as you practice!
+Ships don't have to strictly be 32x32 size, but it's good to not stray away too much from that size. Now figure out your workflow, and start making ships, maybe even take some inspiration from the official ones! It may look like alot, but it gets way easier as you practice!
