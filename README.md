@@ -14,7 +14,7 @@ The repo's purpose is to just keep a collection of all community-made ships and 
 7. It is recommended that you make the ship face to the right.
 8. You can look at the pre existing folders inside the repository as an example of what you should upload.
 
-If these requirements were'nt concise enough, ask us questions in the Official PewPew [Discord Server](https://discord.gg/czubEGgbWJ).
+If these requirements weren't concise enough, ask us questions in the Official PewPew [Discord Server](https://discord.gg/czubEGgbWJ).
 
 ## The Basics
 Example of a file that defines a mesh:
