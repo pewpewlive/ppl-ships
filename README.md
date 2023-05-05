@@ -28,7 +28,7 @@ meshes = {
 }
 ```
 The order of the vertexes correspond to the order of the segments and the colors.
-So `{0,0,0}`, in this case, is assigned a color that corresponds to `0xffffffff` and its segment is `0` since it is the first vertex.
+So `{-16,-16,0}`, in this case, is assigned a color that corresponds to `0xffffffff` and its segment is `0` since it is the first vertex.
 You can use the z axis to make the ship a little more interesting and give some complexity to it.
 You dont have to use it but it's probably good practice.
 
