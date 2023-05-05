@@ -8,29 +8,33 @@ The repo's purpose is to just keep a collection of all community-made ships and 
 1. You will have to work with Lua, since the mesh of the ship should be a Lua mesh. 
 2. You should use [ppl-utils](https://github.com/jyaif/ppl-utils) to make the ship.
 3. Ship size should be roughly 32x32 big, though the ship can be a little larger or a little smaller.
-4. You should only contribute a folder with another folder inside which contains the Lua file mesh and a picture of the mesh in PewPew Live (Minimal Graphics) (optional).
+4. You should only contribute a folder which contains the Lua file mesh and a picture of the mesh in PewPew Live (Minimal Graphics) (optional).
 5. The Lua file name should be the name of the ship. The name of the image should have the name of the ship with the word "IMG" next to it, like so: "(Name)IMG".
-6. Don't be like me and make sure to center your mesh to `{0,0}`! If the border you start from is from `{0,0}` to `{32,32}`, the center is `{16,16}`! When you center it properly, the rough estimate of the borders should be from `{-16,-16}` to `{16,16}`, so the center will now be `{0,0}`.
-7. You can start with the ship facing up, and when you're done with the ship, make it face to the right (so that it's angle is 0 degrees) by swapping in each vertex the x and y value.
+6. Make sure the ship's center is at {0,0} and its size is 32x32.
+7. It is recommended that you make the ship face to the right.
 8. You can look at the pre existing folders inside the repository as an example of what you should upload.
+
+If these requirements were'nt concise enough, ask us questions in the Official PewPew [Discord Server](https://discord.gg/czubEGgbWJ).
 
 ## The Basics
 Example of a file that defines a mesh:
 ```lua
 meshes = {
-  { -- A 32x32 square
-    vertexes = {{0,0,0}, {32,0,0}, {32,32,0}, {0,32,0}},
+  { -- A 32x32 square with its center at {0,0,0}
+    vertexes = {{-16,-16,0}, {16,-16,0}, {16,16,0}, {-16,16,0}},--each vertex is a table containing {x,y,z} in order.
     colors = {0xffffffff, 0xffff00ff, 0xff00ffff, 0xff0000ff},
-    segments = {{0,1,2,3,0}}
+    segments = {{0,1,2,3,0}}--segments are the connections that make up the lines of the mesh.
   }
 }
 ```
 The order of the vertexes correspond to the order of the segments and the colors.
-So `{0,0}` in this case is assigned a color that corresponds to `0xffffffff` and its segment is `0` since it is the first vertex.
+So `{0,0,0}`, in this case, is assigned a color that corresponds to `0xffffffff` and its segment is `0` since it is the first vertex.
 You can use the z axis to make the ship a little more interesting and give some complexity to it.
-Here's an image that represents the 32x32 square. The numbers inside the {} are the vertexes and for simplicity the numbers in the () are the segments that correspond to them.
-The starting point is `{0,0}`. 
-![githu](https://user-images.githubusercontent.com/96009711/155609785-ef9c2548-56a3-4bf5-8e27-72f0397f9d17.png)
+You dont have to use it but it's probably good practice.
 
-This isn't necessarily a limit, since the ship can be a little more larger/smaller. Now figure out your workflow, and start making ships, maybe even take some inspiration from the official ones! It may look like alot, but it gets way easier as you practice!
-More questions on the Official PewPew [Discord Server](https://discord.gg/czubEGgbWJ).
+If you're still confused on some things, here's a demonstration of a poorly drawn alpha ship.
+The center point is `{0,0,0}`. 
+Should clear some things up.
+![exampleIMG](https://user-images.githubusercontent.com/96009711/236540596-0b2437cf-190a-40dc-9dfc-d6678972531f.png)
+
+Ships dont have to strictly be 32x32 size, but it's good to not stray away too much from that size. Now figure out your workflow, and start making ships, maybe even take some inspiration from the official ones! It may look like alot, but it gets way easier as you practice!
